@@ -1,0 +1,92 @@
+body {
+    background-color: rgba(1, 1, 17, 0.932); 
+    background-image: url(imagens/spa2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.267),rgba(0, 0, 0, 0.137)),url(imagens/spa2.jpg);
+    background-size:1300px 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h1 {
+    font-family:Bruno Ace;
+    background-color: rgba(240, 248, 255, 0.13);
+    margin-left: 24px;
+    margin-right: 24px;
+    letter-spacing: 3px;
+    font-size: 30px;
+    padding-bottom: 40px;
+    padding-top: 5px;
+}
+
+.fa-sharp.fa-solid.fa-star {
+    letter-spacing: 80px;
+    font-size: 20px;
+    display: inline;
+    list-style: none;
+}
+
+p {
+    font-size: 17px;
+    margin-bottom: 180px;
+    letter-spacing: 4px;
+    margin-top: -50px;
+    font-family: bell MT;
+}
+
+h2 {
+    font-size: 60px;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+    margin-top: 2%;
+    font-family: bell MT;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 100px;
+    letter-spacing: 2px;
+    font-family: bell MT;
+}
+
+.animate__animated.animate__zoomIn {
+    --animate-duration: 10s;
+    animation-delay: 1s;
+}
+
+h4 {
+    margin-bottom: 3%;
+}
+
+.botao {
+    background-color: rgba(248, 204, 10, 0.808);
+    padding: 15px 15px 15px 15px;
+    color:rgba(0, 0, 0, 0.815);
+    font-family: bell MT;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-bottom: 100px;
+}
+
+li {
+    list-style: none;
+    letter-spacing: 30px;
+    font-size: 20px;
+    display: inline;
+}
+
+@media (max-width:640px) {
+    p {
+        margin-bottom: 150px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+
+    h4 {
+        margin-bottom: 8%;
+    }
+}
